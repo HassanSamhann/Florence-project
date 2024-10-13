@@ -13,15 +13,17 @@ kitchen.addEventListener("click",()=>{
 
 })
 all.addEventListener("click",()=>{
+    showall.style.display= "flex";
+
     showKit.style.display= "none" ; 
-    showall.style.display= "flex"
-    showdressing.style.display= "none"
+    showdressing.style.display= "none";
 
 }) 
 dressing.addEventListener("click",()=>{
+    showdressing.style.display= "flex" ; 
+
     showKit.style.display= "none" ; 
-    showall.style.display= "none"
-    showdressing.style.display= "flex"
+    showall.style.display= "none" ; 
 
 }) 
 
